@@ -2,7 +2,7 @@ const neatCsv = require('neat-csv')
 const fs = require('fs')
 
 // put your csv in the csv folder and change the name below
-const pathToCsvFile = './filename.csv'
+const pathToCsvFile = './csv/authzones.csv'
 // you will overwrite an old saved file if you dont change 'desired file name' between runs
 const desiredFileName = 'results'
 
